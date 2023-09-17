@@ -6,6 +6,11 @@ class Home extends BaseController
 {
     public function index(): string
     {
+        echo 'Hello';
         return view('welcome_message');
+    }
+
+    public function eryel(){
+        echo 'hello eryel';
     }
 }
