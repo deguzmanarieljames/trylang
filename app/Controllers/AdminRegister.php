@@ -10,4 +10,12 @@ class AdminRegister extends BaseController
     {
         //
     }
+    public function adreg($id)
+    {
+        echo 'hello';
+    }
+
+    public function eryel(){
+        return view('admins');
+    }
 }
